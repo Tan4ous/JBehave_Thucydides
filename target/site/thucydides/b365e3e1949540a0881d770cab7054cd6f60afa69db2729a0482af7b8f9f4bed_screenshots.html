@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="b365e3e1949540a0881d770cab7054cd6f60afa69db2729a0482af7b8f9f4bed.html">Looking up the definition of 'apple'</a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" class="current">Test Results</a></li>
+            <li><a href="capabilities.html">Requirements</a></li>
+            <li><a href="progress-report.html">Progress</a></li>
+            <li><a href="3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html">Stories</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+        <br style="clear:left"/>
+    </div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Looking up the definition of 'apple'<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">8,21s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="223651335e5fbc3a56720a2b56cce78b408e5292b5fed410f051d38b973d42d5.html">Lookup a definition (story)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="screenshot-198cef48e6953119040abd45aa2f98e262347814d50ab3d9a0a3861684c67f381.png" alt="" title="Is the home page" width="1000"/>
+                <img src="screenshot-27b70eee437ba83a055190b5e0e0dd1bb9b4b3203ecc877bfa7e43a1612d7cd06.png" alt="" title="Enters: {apple}" width="1000"/>
+                <img src="screenshot-8de5c178f3a830d75da6a3012559428a02b1ae6dac8d591da0e3531eef05c2d47.png" alt="" title="Starts search" width="1000"/>
+                <img src="screenshot-8de5c178f3a830d75da6a3012559428a02b1ae6dac8d591da0e3531eef05c2d48.png" alt="" title="Starts search" width="1000"/>
+                <img src="screenshot-8d91d45048d30f8b343e24122a431d3f4b3c71e152f9d89025f980105047bcd912.png" alt="" title="Should see definition" width="1000"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

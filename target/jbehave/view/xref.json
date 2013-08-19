@@ -1,0 +1,21 @@
+{"xref": {
+  "whenMade": 1376908377031,
+  "createdBy": "JBehave",
+  "metaFilter": "",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "",
+      "name": "LookupADefinition.story",
+      "path": "Tan4ous/stories/consult_dictionary/LookupADefinition.story",
+      "html": "Tan4ous.stories.consult_dictionary.LookupADefinition.html",
+      "meta": "",
+      "scenarios": "Scenario:Looking up the definition of 'apple'\u000aGiven the user is on the http://qrcoder.ru/\u000aWhen the user enter the word 'apple'\u000aThen image not null\u000a\u000a\u000aScenario:Looking up the definition of 'pear'\u000aGiven the user is on the http://qrcoder.ru/\u000aWhen the user enter the word 'pear'\u000aThen image not null\u000a\u000a\u000a",
+      "passed": true,
+      "started": 1376908362086,
+      "duration": 12736
+    }
+  ],
+  "stepMatches": []
+}}

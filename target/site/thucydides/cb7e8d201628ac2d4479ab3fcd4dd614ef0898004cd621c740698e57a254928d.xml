@@ -1,0 +1,53 @@
+<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4479" timestamp="2013-08-19T14:32:50.341+04:00">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="Tan4ous/stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the http://qrcoder.ru/" result="SUCCESS">
+    <screenshots>
+      <screenshot image="screenshot-993d279b055e7ccdc27784e449f850fd77c648279f7e41764b65f9c1e28375d015.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="916">
+      <screenshots>
+        <screenshot image="screenshot-e63b024f4f00650cfa2da93b8fa4a400c7cc52fbc61a9989fea6efe4a81c877116.png"/>
+        <screenshot image="screenshot-e63b024f4f00650cfa2da93b8fa4a400c7cc52fbc61a9989fea6efe4a81c877117.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user enter the word &apos;pear&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="screenshot-d65a23826c2ac8d5fe6e4c5fcd450e095ea23bdf3bdc2658ee623e82c80d62d019.png"/>
+    </screenshots>
+    <test-group name="Looks for: {pear}" result="SUCCESS">
+      <screenshots>
+        <screenshot image="screenshot-a8b9630b42a1769c69d9b7c15a8a561e02492cc6f94bcc615a5345d60bf163ab20.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="435">
+        <screenshots>
+          <screenshot image="screenshot-020ae05eb1d507afe222674a67e3e8ae08ed13320f1b8b71c3957370a95f9cb921.png"/>
+          <screenshot image="screenshot-020ae05eb1d507afe222674a67e3e8ae08ed13320f1b8b71c3957370a95f9cb922.png"/>
+        </screenshots>
+        <description>Enters: {pear}</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="1019">
+        <screenshots>
+          <screenshot image="screenshot-cbcbd5706147cb117fc30750de76715b77b0ee46fdf43941a13d16edbd6d2abb23.png"/>
+          <screenshot image="screenshot-cbcbd5706147cb117fc30750de76715b77b0ee46fdf43941a13d16edbd6d2abb24.png"/>
+        </screenshots>
+        <description>Starts search</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="Then image not null" result="SUCCESS">
+    <screenshots>
+      <screenshot image="screenshot-628c76d39eeb52805c292d38b036cec8269b2deeda4045ca13b2be643030137627.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="507">
+      <screenshots>
+        <screenshot image="screenshot-f54822e6d553f64703be2c24f642ba886ee5b6feed43afa737d97495beccb04928.png"/>
+      </screenshots>
+      <description>Should see definition</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

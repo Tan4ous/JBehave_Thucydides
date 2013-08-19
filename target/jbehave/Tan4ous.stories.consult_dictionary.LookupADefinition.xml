@@ -1,0 +1,12 @@
+<story path="Tan4ous/stories/consult_dictionary/LookupADefinition.story" title="">
+<scenario keyword="Scenario:" title="Looking up the definition of &apos;apple&apos;">
+<step outcome="successful">Given the user is on the http://qrcoder.ru/</step>
+<step outcome="successful">When the user enter the word &apos;apple&apos;</step>
+<step outcome="successful">Then image not null</step>
+</scenario>
+<scenario keyword="Scenario:" title="Looking up the definition of &apos;pear&apos;">
+<step outcome="successful">Given the user is on the http://qrcoder.ru/</step>
+<step outcome="successful">When the user enter the word &apos;pear&apos;</step>
+<step outcome="successful">Then image not null</step>
+</scenario>
+</story>

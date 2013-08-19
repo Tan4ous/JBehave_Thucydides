@@ -1,0 +1,33 @@
+<xref>
+  <whenMade>1376908377031</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter></metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>LookupADefinition.story</name>
+      <path>Tan4ous/stories/consult_dictionary/LookupADefinition.story</path>
+      <html>Tan4ous.stories.consult_dictionary.LookupADefinition.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Looking up the definition of &apos;apple&apos;
+Given the user is on the http://qrcoder.ru/
+When the user enter the word &apos;apple&apos;
+Then image not null
+
+
+Scenario:Looking up the definition of &apos;pear&apos;
+Given the user is on the http://qrcoder.ru/
+When the user enter the word &apos;pear&apos;
+Then image not null
+
+
+</scenarios>
+      <passed>true</passed>
+      <started>1376908362086</started>
+      <duration>12736</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>
