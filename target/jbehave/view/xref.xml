@@ -1,5 +1,5 @@
 <xref>
-  <whenMade>1376908377031</whenMade>
+  <whenMade>1376992280428</whenMade>
   <createdBy>JBehave</createdBy>
   <metaFilter></metaFilter>
   <meta/>
@@ -25,8 +25,8 @@ Then image not null
 
 </scenarios>
       <passed>true</passed>
-      <started>1376908362086</started>
-      <duration>12736</duration>
+      <started>1376992278811</started>
+      <duration>133</duration>
     </story>
   </stories>
   <stepMatches/>

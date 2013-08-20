@@ -1,4 +1,4 @@
-package Tan4ous.jbehave;
+package Tan4ous.jbehave.steps;
 
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;

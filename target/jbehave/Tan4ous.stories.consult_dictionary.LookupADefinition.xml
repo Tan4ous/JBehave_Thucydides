@@ -1,12 +1,48 @@
 <story path="Tan4ous/stories/consult_dictionary/LookupADefinition.story" title="">
 <scenario keyword="Scenario:" title="Looking up the definition of &apos;apple&apos;">
-<step outcome="successful">Given the user is on the http://qrcoder.ru/</step>
-<step outcome="successful">When the user enter the word &apos;apple&apos;</step>
-<step outcome="successful">Then image not null</step>
+<step outcome="pending" keyword="PENDING">Given the user is on the http://qrcoder.ru/</step>
+<step outcome="pending" keyword="PENDING">When the user enter the word &apos;apple&apos;</step>
+<step outcome="pending" keyword="PENDING">Then image not null</step>
+<pendingMethod>@Given(&quot;the user is on the http://qrcoder.ru/&quot;)
+@Pending
+public void givenTheUserIsOnTheHttpqrcoderru() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;the user enter the word &apos;apple&apos;&quot;)
+@Pending
+public void whenTheUserEnterTheWordapple() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;image not null&quot;)
+@Pending
+public void thenImageNotNull() {
+  // PENDING
+}
+</pendingMethod>
 </scenario>
 <scenario keyword="Scenario:" title="Looking up the definition of &apos;pear&apos;">
-<step outcome="successful">Given the user is on the http://qrcoder.ru/</step>
-<step outcome="successful">When the user enter the word &apos;pear&apos;</step>
-<step outcome="successful">Then image not null</step>
+<step outcome="pending" keyword="PENDING">Given the user is on the http://qrcoder.ru/</step>
+<step outcome="pending" keyword="PENDING">When the user enter the word &apos;pear&apos;</step>
+<step outcome="pending" keyword="PENDING">Then image not null</step>
+<pendingMethod>@Given(&quot;the user is on the http://qrcoder.ru/&quot;)
+@Pending
+public void givenTheUserIsOnTheHttpqrcoderru() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;the user enter the word &apos;pear&apos;&quot;)
+@Pending
+public void whenTheUserEnterTheWordpear() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;image not null&quot;)
+@Pending
+public void thenImageNotNull() {
+  // PENDING
+}
+</pendingMethod>
 </scenario>
 </story>
